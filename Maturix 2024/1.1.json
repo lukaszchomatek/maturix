@@ -1,0 +1,8 @@
+{
+    "Numer zadania": "1.1",
+    "Treść zadania": "Ile nóg ma krowa?",
+    "Max liczba punktów": 1,
+    "Zasady oceniania": "0 punktów - podanie w odpowiedzi innej liczby niż 4\n1 punkt - wskazanie w odpowiedzi, że krowa ma 4 nogi",
+    "Przykładowe rozwiązania": "Krowa ma 4 nogi.\n\nLiczba nóg u krowy to 4.",
+    "Uwagi": "Jeśli ktoś odpowie źle, można nie sprawdzać reszty pracy."
+}

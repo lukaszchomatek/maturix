@@ -1,0 +1,8 @@
+{
+    "Numer zadania": "1.2",
+    "Treść zadania": "Ile nóg ma świnia?",
+    "Max liczba punktów": 1,
+    "Zasady oceniania": "0 punktów - podanie w odpowiedzi innej liczby niż 4\n1 punkt - wskazanie w odpowiedzi, że świnia ma 4 nogi",
+    "Przykładowe rozwiązania": "Krowa ma 4 nogi.\n\nLiczba nóg u krowy to 4.",
+    "Uwagi": "Jeśli ktoś odpowie źle, można nie sprawdzać reszty pracy."
+}

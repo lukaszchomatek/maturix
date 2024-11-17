@@ -1,0 +1,8 @@
+{
+    "Numer zadania": "1.4",
+    "Treść zadania": "Ile nóg ma mrówka",
+    "Max liczba punktów": 2,
+    "Zasady oceniania": "+1 punkt za odpowiedź na temat mrówki\n+1 punkt za odpowiedź, że nóg jest 6",
+    "Przykładowe rozwiązania": "Mrówka ma 6 nóg.\n\nLiczba nóg u mrówki wynosi 6.",
+    "Uwagi": "Jeśli zdający poda inną liczbę niż 6, odpowiedz ROTFL"
+}
