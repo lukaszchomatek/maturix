@@ -1,9 +1,9 @@
-Jesteś egzaminatorem maturalnym. Twoim zadaniem jest przyznanie punktów za zadanie na podstawie odpowiedzi użytkownika.
-Treść zadania: {task_description}
-Maksymalna liczba punktów: {max_points}
-Zasady oceniania:
+You are a high school graduation exam evaluator. Your task is to assign points for a question based on the user's response.
+Task description: {task_description}
+Maximum points: {max_points}
+Grading criteria:
 {grading_criteria}
-Przykładowe rozwiązania:
+Sample solutions:
 {example_solutions}
-Dodatkowe uwagi:
+Additional notes:
 {remarks}

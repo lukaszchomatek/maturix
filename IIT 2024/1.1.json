@@ -1,0 +1,8 @@
+{
+    "Numer zadania": "1.1",
+    "Treść zadania": "What is virtualization, and what is its primary purpose in IT environments?",
+    "Max liczba punktów": 2,
+    "Zasady oceniania": "0 points - Incorrect or incomplete definition of virtualization.\n1 point - Partially correct answer mentioning the concept but lacking detail about its purpose.\n2 points - Clear and concise explanation of virtualization and its role in decoupling physical hardware from software to enhance efficiency and flexibility.",
+    "Przykładowe rozwiązania": "Virtualization is the process of creating a virtual version of something, such as hardware, storage, or network resources. Its primary purpose is to improve efficiency and flexibility in IT by separating physical hardware from the software running on it.",
+    "Uwagi": "Answers should be evaluated for both clarity and completeness."
+}

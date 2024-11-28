@@ -71,27 +71,27 @@ def check_answer(api_key, user_answer):
             },
             {
                 "role": "user",
-                "content": "Odpowiedź użytkownika: " + user_answer
+                "content": "Student's answer: " + user_answer
             }
         ],
-        model="llama-3.2-90b-text-preview",
+        model="llama-3.2-11b-vision-preview",
     )
     
     # Return the response from the model
     return chat_completion.choices[0].message.content
 
 # Gradio UI components
-api_key_input = gr.Textbox(label="Klucz API Groq", placeholder="Wprowadź swój klucz API", type="password")
-folder_name_input = gr.Textbox(label="Nazwa folderu z zadaniami", placeholder="np. Matura 2024")
-random_task_button = gr.Button("Wylosuj zadanie")
+api_key_input = gr.Textbox(label="Groq API Key", placeholder="Enter your API key here", type="password")
+folder_name_input = gr.Textbox(label="Folder with exercises", placeholder="for example, IIT 2024")
+random_task_button = gr.Button("Get a random exercise")
 
-task_number_output = gr.Label(label="Numer zadania")
-task_description_output = gr.Label(label="Treść zadania")
-max_points_output = gr.Label(label="Max liczba punktów")
-user_answer_input = gr.Textbox(label="Twoja odpowiedź", placeholder="Wpisz swoją odpowiedź tutaj", lines=5, interactive=True)
+task_number_output = gr.Label(label="Exercise #")
+task_description_output = gr.Label(label="Exercise")
+max_points_output = gr.Label(label="Max points")
+user_answer_input = gr.Textbox(label="Your answer", placeholder="Put your answer here", lines=5, interactive=True)
 
-check_button = gr.Button("Sprawdź")
-model_response_output = gr.Textbox(label="Odpowiedź modelu", interactive=False, lines=5)
+check_button = gr.Button("Check")
+model_response_output = gr.Textbox(label="Model's grade:", interactive=False, lines=5)
 
 # Define the Gradio interface using Blocks to separate actions
 demo = gr.Blocks()

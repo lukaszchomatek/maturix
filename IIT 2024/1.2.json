@@ -1,0 +1,8 @@
+{
+    "Numer zadania": "1.2",
+    "Treść zadania": "Explain the difference between Type 1 and Type 2 hypervisors in hardware virtualization.",
+    "Max liczba punktów": 3,
+    "Zasady oceniania": "0 points - Incorrect explanation or failure to distinguish between the two types.\n1 point - Basic mention of Type 1 and Type 2 hypervisors with minimal differentiation.\n2 points - Explanation mentioning that Type 1 runs directly on hardware and Type 2 requires a host operating system but lacking additional detail.\n3 points - Detailed answer specifying Type 1 as bare-metal hypervisors and Type 2 as hosted hypervisors, along with their performance and resource management differences.",
+    "Przykładowe rozwiązania": "Type 1 hypervisors, also known as bare-metal hypervisors, run directly on physical hardware, providing better performance and resource management. Type 2 hypervisors, or hosted hypervisors, operate on a host operating system, which can reduce performance but makes them easier to set up.",
+    "Uwagi": "Answers should include examples of hypervisors for additional clarity, though examples are not mandatory for full points."
+}

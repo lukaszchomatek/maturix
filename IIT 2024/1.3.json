@@ -1,0 +1,8 @@
+{
+    "Numer zadania": "1.3",
+    "Treść zadania": "List three benefits of hardware virtualization and provide a brief explanation for each.",
+    "Max liczba punktów": 3,
+    "Zasady oceniania": "0 points - Incorrect or no benefits listed.\n1 point - At least one correct benefit mentioned with explanation.\n2 points - Two correct benefits with brief explanations.\n3 points - Three correct benefits with accurate and concise explanations.",
+    "Przykładowe rozwiązania": "1. Resource Utilization: Virtualization allows multiple VMs to run on a single server, optimizing hardware usage.\n2. Cost Reduction: By consolidating workloads onto fewer servers, organizations save on hardware and energy costs.\n3. Disaster Recovery: Virtual machines can be easily backed up and restored, improving disaster recovery strategies.",
+    "Uwagi": "Partial credit can be given for incomplete or partially correct answers."
+}
